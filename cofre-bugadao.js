@@ -9,8 +9,8 @@ const senhaDigitada = array[1];
 
 let indiceSenha = 0; 
 
-for (let j = 0; j < senhaDigitada.length && indiceSenha < senhaCorreta.length; j++) {
-  if (senhaDigitada[j] === senhaCorreta[indiceSenha]) {
+for (let i = 0; i < senhaDigitada.length && indiceSenha < senhaCorreta.length; i++) {
+  if (senhaDigitada[i] === senhaCorreta[indiceSenha]) {
   indiceSenha++;  
 }
 }
